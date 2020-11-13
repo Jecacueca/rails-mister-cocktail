@@ -1,0 +1,8 @@
+<h5>Create a new cocktail...</h5>
+
+<%= simple_form_for [ @cocktail ] do |f| %>
+  <%= f.input :name %>
+  <%= f.submit "Create" %>
+<% end %>
+
+<%= link_to 'Back', cocktails_path %>

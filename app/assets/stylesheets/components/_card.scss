@@ -1,0 +1,39 @@
+.cocktail-card {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 2px;
+}
+
+.cocktail-card > img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.cocktail-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cocktail-card p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.cocktail-card .cocktail-info {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  margin: 35px 30px;
+  justify-content: space-between;
+}
