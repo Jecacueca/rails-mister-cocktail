@@ -29,6 +29,7 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 gem 'faker'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
